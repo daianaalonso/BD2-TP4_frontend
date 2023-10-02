@@ -42,6 +42,7 @@ export default function Productos({ selectedProductos, setSelectedProductos }) {
         <thead>
           <tr>
             <th>Editar</th>
+            <th>Codigo</th>
             <th>Descripción</th>
             <th>Marca</th>
             <th>Precio</th>
@@ -55,7 +56,7 @@ export default function Productos({ selectedProductos, setSelectedProductos }) {
                 <td>
                   <Link to={`/producto/${p.id}`}>Editar</Link>
                 </td>
-
+                <td>{p.codigo}</td>
                 <td>{p.descripcion}</td>
                 <td>{p.marca.nombre}</td>
                 <td>${p.precio}</td>

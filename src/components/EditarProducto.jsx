@@ -75,6 +75,9 @@ export default function EditarProducto() {
   return (
     <>
       <form onSubmit={handleSubmit}>
+        <label htmlFor="codigo">Codigo: </label>
+        <input type="text" id="codigo" name="codigo" value={formData.codigo} />
+        <hr />
         <label htmlFor="descripcion">Descripción: </label>
         <input
           type="text"
@@ -87,8 +90,8 @@ export default function EditarProducto() {
         <label htmlFor="precio">Precio: </label>
         <input
           type="number"
-          id="codigo"
-          name="codigo"
+          id="precio"
+          name="precio"
           value={formData.precio}
           onChange={handleChange}
         />
