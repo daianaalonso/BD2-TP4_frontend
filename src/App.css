@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Color de fondo */
+  font-family: Arial, sans-serif;
+  color: black;
+}
+/* App.css */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding:20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  color: black;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.promociones,
+.tarjetas,
+.productos {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.promociones h2,
+.tarjetas h2,
+.productos h2 {
+  color: #333;
+}
+
+.actions {
+  width: 500px;
+  margin: auto;
+  padding-top: inherit;
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: nowrap
+}

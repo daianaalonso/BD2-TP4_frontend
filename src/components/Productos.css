@@ -1,0 +1,40 @@
+/* Estilos para la tabla con el id 'productos' */
+.productos {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Estilos para celdas de datos y encabezados de la tabla */
+.productos td, .productos th {
+  padding: 8px;
+  text-align: center;
+}
+
+/* Estilos para filas pares */
+.productos tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para filas impares */
+.productos tr:nth-child(odd) {
+  background-color: white; /* Fondo blanco para filas impares */
+}
+
+/* Estilos para filas cuando el mouse está sobre ellas */
+.productos tr:hover {
+  background-color: #ddd;
+}
+
+/* Estilos para encabezados de la tabla */
+.productos th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #a5c89f;
+  color: white;
+}
+
+/* Estilos para el texto en las celdas del cuerpo */
+.productos td {
+  color: black; /* Texto en celdas del cuerpo en negro */
+}
